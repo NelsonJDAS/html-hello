@@ -1,0 +1,75 @@
+/*-------------body como contenedor (Se puede usar un div perfectamente)----------------*/
+
+body {
+    padding-left: 35%;
+    background-color: black;
+    display: flex;
+    width: 430px;
+    height: 930px;
+    flex-direction: column;
+}
+
+/*-------------todo lo relacionado con el contenedor de arriba (footer)-------------*/
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+/*Contenedor para encapsular el texto del autor y HTML junto al icono de html*/
+
+.Parte-izquierda {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 40px 0 40px
+}
+
+/*Medidas para ajustar el nombre del autor adecuadamente*/
+
+.texto-izq {
+    margin: 0;
+}
+
+/*-------------todo lo relacionado con el contenedor del medio (imagen)-------------*/
+
+img {
+    border-top: solid black 2px; /*Borde añadido para marcar la diferencia si la img tiene el mismo fondo que el background*/
+    border-bottom: solid black 2px;
+    width: 100%;
+    height: 300px;
+}
+
+/*-------------todo lo relacionado con el contenedor de abajo (footer)-------------*/
+
+footer {
+    padding: 0px 10px;
+}
+
+/*Simbolos situados debajo de la imagen*/
+
+.simbolos {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------------Clases genericas (mas de 1 uso en la pagina)----------------*/
+
+i {                   /*Medida para ajustar los simbolos*/
+    font-size: 30px; 
+    padding: 20px 5px;
+}
+
+.Font-B {            /*Fuente negrita junto al tamaño de letra*/
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.b-white {               /*Background negro para diferenciarlo con el fondo negro*/
+    background-color: white;
+}
+
+
